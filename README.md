@@ -1,9 +1,9 @@
 # GoPro Plus
 
-GoPro Plus is an open-source project designed to enable users to interact with
-the GoPro Plus media library from the command line. This project aims to provide
-a convenient way to access and manage your GoPro media without the need
-to use the web interface.
+GoPro Plus is an open-source project designed to enable users to export
+their GoPro Plus media library from the command line. This project aims to provide
+a convenient way for users who have had terrible customer service from GoPro, like me, to migrate 
+to a new media storage solution.  
 
 **GoPro Plus supports downloading more than 25 media files at a time which is a
 tedious 🤦 limitation enforced by GoPro Media Library website.**
