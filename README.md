@@ -8,11 +8,11 @@ to a new media storage solution.
 **GoPro Plus supports downloading more than 25 media files at a time which is a
 tedious 🤦 limitation enforced by GoPro Media Library website.**
 
- 🐳 Docker hub: https://hub.docker.com/repository/docker/itsankoff/gopro/general
+ 🐳 Docker image: ghcr.io/riznob/gopro-plus:master
 
 ## Usage (Docker environment)
-* `docker pull itsankoff/gopro`
-* `docker run -e AUTH_TOKEN=<gopro-auth_token> --mount type=bind,src="`pwd`/download",target=/app/download itsankoff/gopro`
+* `docker pull ghcr.io/riznob/gopro-plus:master`
+* `docker run -e AUTH_TOKEN=<gopro-auth_token> --mount type=bind,src="`pwd`/download",target=/app/download ghcr.io/riznob/gopro-plus:master`
 
 Supported Docker ENV variable options:
 * `-e AUTH_TOKEN=<gopro-auth-token>` - (**required**) authentication token
