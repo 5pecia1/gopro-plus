@@ -8,6 +8,7 @@ COPY main.py /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 ENV AUTH_TOKEN "<GOPRO_AUTH_TOKEN>"
+ENV USER_ID "<GOPRO_USER_ID>"
 ENV ACTION "download"
 ENV START_PAGE  "1"
 # Should mean all
